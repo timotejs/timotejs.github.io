@@ -32,4 +32,9 @@ function showSlides(n) {
     modalImg.src = img[slideIndex-1].src
     currentImageText.innerHTML = slideIndex+"/"+img.length;
 }
-                
+         
+echo.init({
+    callback: function (element, op) {
+        console.log(element, 'has been', op + 'ed')
+    }
+});
