@@ -158,12 +158,17 @@ body {
         position: absolute;
         text-align: center;
         width: 100%;
-        top: 30%;
+        top: 20%;
     }
     #main-title img {
         margin-top: 150px;
         width: 68px;
         height: 68px;
+    }
+    #main-title .btn {
+        margin-top: 50px;
+        border-radius: 12px;
+        box-shadow:1px 1px 10px #000, 1px 1px 20px #000;
     }
     #carousel-main {
         max-width: 100%; 
