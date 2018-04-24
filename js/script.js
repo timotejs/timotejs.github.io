@@ -1,5 +1,21 @@
-new WOW().init();
-
+if (matchMedia) {
+    const mq = window.matchMedia("(min-width: 991px)");
+    mq.addListener(ImageChange);
+    ImageChange(mq);
+}
+function ImageChange(mq) {
+    if (mq.matches) {
+        document.getElementById("first-img").src = "images/Main-slide/PC/IMG_1937.jpg";
+        document.getElementById("second-img").src = "images/Main-slide/PC/IMG_4518.jpg";
+        document.getElementById("third-img").src = "images/Main-slide/PC/IMG_5130-4.jpg";
+        document.getElementById("fourth-img").src = "images/Main-slide/PC/IMG_2035.jpg";
+    } else {
+        document.getElementById("first-img").src = "images/Main-slide/Mobile/Botanicki%201.jpg";
+        document.getElementById("second-img").src = "images/Main-slide/Mobile/IMG_0228%20LR%20PS.jpg";
+        document.getElementById("third-img").src = "images/Main-slide/Mobile/IMG_1547.jpg";
+        document.getElementById("fourth-img").src = "images/Main-slide/Mobile/IMG_4801.jpg";
+    }
+}
 function openModal() {
     document.getElementById('imageModal').style.display = "block";
     document.getElementById("photo").style.overflow = "hidden";
@@ -19,6 +35,10 @@ function plusSlides(n) {
 
 function currentSlide(n) {
     showSlides(slideIndex = n);
+}
+
+function replace() {
+    document.getElementById("first-img").src = "images/Main-slide/Mobile/Botanicki%201.jpg";
 }
 
 function showSlides(n) {
