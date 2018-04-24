@@ -159,6 +159,10 @@ body {
     color: white;
     transition: 0.3s;
 }
+.video {
+    height: 100vh;
+    width: auto;
+}
 @media (max-width: 991px) { 
     #navbar-main {
         margin-left: 0;
