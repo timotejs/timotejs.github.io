@@ -159,7 +159,7 @@ body {
     color: white;
     transition: 0.3s;
 }
-.video {
+#video {
     height: 100vh;
     width: auto;
 }
