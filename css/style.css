@@ -67,6 +67,9 @@ body {
     height: 75vh;
     width: auto;
 }
+.image-holder img:hover {
+    cursor: zoom-in;
+}
 .image-select .row {
     width: 100%;
 }

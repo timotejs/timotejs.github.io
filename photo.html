@@ -57,62 +57,62 @@
     
     <div class="photo-slide">
         <div class="image-holder">
-            <img class="img-fluid" id="image-holder" src="images/Photo/Horizontal/IMG_1405.jpg">
+            <img class="img-fluid" id="image-holder" onclick="openModal();currentImageModal(getSelectedImage())" src="images/Photo/Horizontal/IMG_1405.jpg">
         </div>
         <div class="image-select">
             <div class="row mx-auto mt-1 mb-3 align-items-center justify-content-center">
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(1)" src="images/Photo/Horizontal/IMG_1405.jpg"></div>
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(2)" src="images/Photo/Horizontal/IMG_1937.jpg"></div>
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(3)" src="images/Photo/Horizontal/IMG_2035.jpg"></div>
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(4)" src="images/Photo/Horizontal/IMG_2819.jpg"></div>
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(5)" src="images/Photo/Horizontal/IMG_4518.jpg"></div>
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(6)" src="images/Photo/Horizontal/IMG_4546.jpg"></div>
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(7)" src="images/Photo/Horizontal/IMG_5130-3.jpg"></div>
-                <div class="col-lg-1 col-3"><img class="img-fluid img-select" onclick="currentImage(8)" src="images/Photo/Horizontal/Lr%20Ps.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(1);" src="images/Photo/Horizontal/IMG_1405.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(2)" src="images/Photo/Horizontal/IMG_1937.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(3)" src="images/Photo/Horizontal/IMG_2035.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(4)" src="images/Photo/Horizontal/IMG_2819.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(5)" src="images/Photo/Horizontal/IMG_4518.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(6)" src="images/Photo/Horizontal/IMG_4546.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(7)" src="images/Photo/Horizontal/IMG_5130-3.jpg"></div>
+                <div class="col-lg-1 col-3"><img class="img-fluid img-gallery img-select" onclick="currentImage(8)" src="images/Photo/Horizontal/Lr%20Ps.jpg"></div>
             </div>
         </div>
     </div>
         
     <div class="row" id="first-photo-row">
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/Botanicki%201.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(1)">
+            <img src="images/Photo/Vertical/Botanicki%201.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(9)">
         </div>
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_7959.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(2)">
+            <img src="images/Photo/Vertical/DSC_7959.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(10)">
         </div>
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_8034.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(3)">
+            <img src="images/Photo/Vertical/DSC_8034.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(11)">
         </div>
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_8664.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(4)">
-        </div>
-    </div>
-    <div class="row" id="first-photo-row">
-        <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_8607.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(5)">
-        </div>
-        <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_8803.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(6)">
-        </div>
-        <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_8944.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(7)">
-        </div>
-        <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_8983.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(8)">
+            <img src="images/Photo/Vertical/DSC_8664.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(12)">
         </div>
     </div>
     <div class="row" id="first-photo-row">
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/DSC_9171.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(9)">
+            <img src="images/Photo/Vertical/DSC_8607.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(13)">
         </div>
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/IMG_0228%20LR%20PS.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(10)">
+            <img src="images/Photo/Vertical/DSC_8803.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(14)">
         </div>
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/IMG_4801.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(11)">
+            <img src="images/Photo/Vertical/DSC_8944.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(15)">
         </div>
         <div class="col-lg-3 col-md-3 col-6">
-            <img src="images/Photo/Vertical/ps.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentSlide(12)">
+            <img src="images/Photo/Vertical/DSC_8983.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(16)">
+        </div>
+    </div>
+    <div class="row" id="first-photo-row">
+        <div class="col-lg-3 col-md-3 col-6">
+            <img src="images/Photo/Vertical/DSC_9171.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(17)">
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+            <img src="images/Photo/Vertical/IMG_0228%20LR%20PS.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(18)">
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+            <img src="images/Photo/Vertical/IMG_4801.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(19)">
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+            <img src="images/Photo/Vertical/ps.jpg" class="img-fluid z-depth-1 img-gallery" onclick="openModal();currentImageModal(20)">
         </div>
     </div>
 
@@ -120,8 +120,8 @@
         <span id="close" onclick="closeModal()"><img class="img-fluid" src="images/close.svg"></span>
         <img class="img-fluid" id="modal-image">
         <span id="current-image"></span>
-        <span id="previous" onclick="plusSlides(-1)"><img class="img-fluid" src="images/previous.svg"></span>
-        <span id="next" onclick="plusSlides(1)"><img class="img-fluid" src="images/next.svg"></span>
+        <span id="previous" onclick="plusImage(-1)"><img class="img-fluid" src="images/previous.svg"></span>
+        <span id="next" onclick="plusImage(1)"><img class="img-fluid" src="images/next.svg"></span>
     </div>
     
     <script type="text/javascript" src="js/script.js"></script>
