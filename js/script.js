@@ -16,6 +16,26 @@ function ImageChange(mq) {
         document.getElementById("fourth-img").src = "images/Main-slide/Mobile/IMG_4801.jpg";
     }
 }
+
+var imageIndex = 1;
+    showImage(imageIndex);
+
+function plusImage(n) {
+    showImage(imageIndex += n);
+}
+
+function currentImage(n) {
+    showImage(imageIndex = n);
+}
+
+function showImage(n) {
+    var image = document.getElementsByClassName("img-select");
+    var imageHolder = document.getElementById("image-holder");
+    if (n > image.length) {imageIndex = 1}
+    if (n < 1) {imageIndex = image.length}
+    imageHolder.src = image[imageIndex-1].src
+}
+
 function openModal() {
     document.getElementById('imageModal').style.display = "block";
     document.getElementById("photo").style.overflow = "hidden";
@@ -37,14 +57,9 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
-function replace() {
-    document.getElementById("first-img").src = "images/Main-slide/Mobile/Botanicki%201.jpg";
-}
-
 function showSlides(n) {
     var img = document.getElementsByClassName("img-gallery");
     var modalImg = document.getElementById("modal-image");
-    var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
     var currentImageText = document.getElementById("current-image");
     if (n > img.length) {slideIndex = 1}

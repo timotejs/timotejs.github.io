@@ -32,7 +32,7 @@ body {
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 40%;
+    top: 30%;
 }
 #main-title h1 {
     font-family: sans-serif;
@@ -49,12 +49,12 @@ body {
     text-shadow:1px 1px 10px #000, 1px 1px 20px #000;
 }
 #main-title .btn {
-    margin-top: 100px;
+    margin-top: 150px;
     border-radius: 12px;
     box-shadow:1px 1px 10px #000, 1px 1px 20px #000;
 }
 #main-title .btn:hover {
-    margin-top: 100px;
+    margin-top: 150px;
     border-radius: 12px;
     background-color: white !important;
     color: black !important;
@@ -68,17 +68,17 @@ body {
     width: auto;
 }
 .image-select .row {
-    width: 1000px;
+    width: 100%;
 }
-.image-select .row .col {
+.image-select .row .col-3 {
     height: 80;
     padding: 0;
 }
-.image-select .row .col img {
+.image-select .row .col-3 img {
     height: 80;
     width: auto;
 }
-.image-select .row .col img:hover {
+.image-select .row .col-3 img:hover {
     cursor: pointer;
     opacity: 0.6;
 }
@@ -168,7 +168,7 @@ body {
         position: absolute;
         text-align: center;
         width: 100%;
-        top: 30%;
+        top: 20%;
     }
     #main-title h1 {
         font-family: sans-serif;
@@ -204,11 +204,12 @@ body {
         width: 100vw; 
         height: auto; 
     }
-    #image-left {
-        visibility: hidden;
-    }
     #photo-carousel .carousel-item img {
         max-width: 100%;
         height: auto;
+    }
+    .image-holder img {
+        height: auto;
+        max-width: 100%;
     }
 }
