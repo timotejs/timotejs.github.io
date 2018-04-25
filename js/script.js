@@ -62,13 +62,6 @@ function showImage(n) {
     imageHolder.src = image[imageIndex-1].src
     selectedImage = imageIndex;
 }
-
-function getSelectedImage() {
-    if (selectedImage == null) {
-        selectedImage = 1;
-    }
-    return selectedImage;
-}
          
 echo.init({
     callback: function (element, op) {

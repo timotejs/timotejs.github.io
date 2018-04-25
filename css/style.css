@@ -219,4 +219,11 @@ body {
         height: auto;
         max-width: 100%;
     }
+    .img-horizontal {
+        margin: auto;
+        display: block;
+        padding-top: 50px;
+        height: auto;
+        width: 100%;
+    }
 }
