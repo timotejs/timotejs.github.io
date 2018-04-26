@@ -2,9 +2,6 @@ body {
     background-color: black;
     overflow-x: hidden; 
 }
-#navbar-main {
-    margin-left: 40%;
-}
 .nav-item {
     font-family: ArialRoundedMTBold;
     color:  white;
@@ -12,6 +9,7 @@ body {
 #social-media {
     width: 40px;
     height: 40px;
+    float: right;
 }
 #main-carousel .carousel-item {
     text-align: center;
@@ -215,6 +213,31 @@ body {
     color: white;
     margin-top: 20px;
     font-size: 20px;
+}
+.card-cascade {
+    width: 100vw;
+    height: 100vh;
+}
+.about-me {
+    height: 50vh;
+    background-color: black;
+}
+.about-me h4 {
+    font-size: 50px;
+    color: white;
+}
+.about-me p {
+    font-size: 20px !important;
+    color: white !important;
+    opacity: 0.7;
+}
+.about-me a {
+    color: white;
+    padding-bottom: 20px !important; 
+}
+#social-media-parent {
+    position: absolute;
+    right: 0px;
 }
 @media (max-width: 991px) { 
     #navbar-main {
