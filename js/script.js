@@ -34,6 +34,9 @@ showImage(imageIndex);
 
 function currentImage(n) {
     showImage(imageIndex = n);
+    var elm = document.getElementById("image-holder");
+    var newone = elm.cloneNode(true);
+    elm.parentNode.replaceChild(newone, elm);
 }
 
 function plusImage(n) {
@@ -50,7 +53,7 @@ function showImageModal(n) {
     var currentImageText = document.getElementById("current-image");
     if (n > img.length) {imageIndex = 1}
     if (n < 1) {imageIndex = img.length}
-    modalImg.src = img[imageIndex-1].src
+    modalImg.src = img[imageIndex-1].src;
     currentImageText.innerHTML = imageIndex+"/"+img.length;
 }
 
@@ -59,7 +62,7 @@ function showImage(n) {
     var imageHolder = document.getElementById("image-holder");
     if (n > image.length) {imageIndex = 1}
     if (n < 1) {imageIndex = image.length}
-    imageHolder.src = image[imageIndex-1].src
+    imageHolder.src = image[imageIndex-1].src;
     selectedImage = imageIndex;
 }
 
