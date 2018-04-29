@@ -44,10 +44,9 @@ function currentImage(n) {
 
 function plusImage(n) {
     showImageModal(imageIndex += n);
-//    $("#modal-image").removeClass("animation zoomIn").addClass("animation slideInRight");
-//    var elm = document.getElementById("image-holder");
-//    var newone = elm.cloneNode(true);
-//    elm.parentNode.replaceChild(newone, elm);
+    var elm = document.getElementById("modal-image");
+    var newone = elm.cloneNode(true);
+    elm.parentNode.replaceChild(newone, elm);
 }
 
 function currentImageModal(n) {
@@ -70,9 +69,6 @@ function showImage(n) {
     if (n > image.length) {imageIndex = 1}
     if (n < 1) {imageIndex = image.length}
     imageHolder.src = image[imageIndex-1].src;
-    for(var i = 0; i < image.length; i++)
-        image[i].style.height = "auto";
-    image[imageIndex-1].style.height = "90px";
     selectedImage = imageIndex;
 }
 
