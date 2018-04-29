@@ -228,6 +228,15 @@ body {
     color: white;
     padding-bottom: 20px !important; 
 }
+#contact-send-btn {
+    border-radius: 12px;
+}
+#contact-send-btn:hover {
+    border-radius: 12px;
+    background-color: white !important;
+    color: black !important;
+    opacity: 0.7 !important;
+}
 @media (max-width: 991px) { 
     #navbar-main {
         margin-left: 0;
