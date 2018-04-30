@@ -17,6 +17,16 @@ function ImageChange(mq) {
     }
 }
 
+function changeCollapseColor() {
+    var canSee = $(".collapse").is(":visible");
+    if(canSee) {
+        document.getElementById("navbar").style.backgroundColor = "transparent";
+    } else {
+        document.getElementById("navbar").style.backgroundColor = "black";
+        document.getElementById("navbar").style.opacity = "0.9";
+    }
+}
+
 function openModal() {
     document.getElementById('imageModal').style.display = "block";
     document.getElementById("photo").style.overflow = "hidden";

@@ -14,9 +14,10 @@
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-        aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" id="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+                onclick="changeCollapseColor()">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -38,7 +39,7 @@
     <div class="container">
         
         <div class="row" id="price-list">
-            <div class="col-sm-4 col-12">
+            <div class="col-md-4 col-12">
                 <div class="list-group" id="list-tab" role="tablist">
                     <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-p1" role="tab" aria-controls="p1">Photoshoot 1</a>
                     <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-p2" role="tab" aria-controls="p2">Photoshoot 2</a>
@@ -47,7 +48,7 @@
                 </div>
             </div>
             
-            <div class="col-sm-8 col-12 text-center">
+            <div class="col-md-8 col-12 text-center">
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="list-p1" role="tabpanel" aria-labelledby="list-home-list">
                         <h1>1 Osoba</h1>
