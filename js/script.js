@@ -5,21 +5,23 @@ if (matchMedia) {
 }
 function ImageChange(mq) {
     if (mq.matches) {
-        document.getElementById("first-img").src = "images/Main-slide/PC/IMG_1937.jpg";
-        document.getElementById("second-img").src = "images/Main-slide/PC/IMG_4518.jpg";
-        document.getElementById("third-img").src = "images/Main-slide/PC/IMG_5130-4.jpg";
-        document.getElementById("fourth-img").src = "images/Main-slide/PC/IMG_2035.jpg";
+        document.getElementById("first-img").src = "images/Main-slide/PC/DSC_0300-2.jpg";
+        document.getElementById("second-img").src = "images/Main-slide/PC/IMG_1937.jpg";
+        document.getElementById("third-img").src = "images/Main-slide/PC/IMG_4518.jpg";
+        document.getElementById("fourth-img").src = "images/Main-slide/PC/IMG_5130-4.jpg";
+        document.getElementById("fifth-img").src = "images/Main-slide/PC/IMG_2035.jpg";
     } else {
-        document.getElementById("first-img").src = "images/Main-slide/Mobile/Botanicki%201.jpg";
-        document.getElementById("second-img").src = "images/Main-slide/Mobile/IMG_0228%20LR%20PS.jpg";
-        document.getElementById("third-img").src = "images/Main-slide/Mobile/IMG_1547.jpg";
-        document.getElementById("fourth-img").src = "images/Main-slide/Mobile/IMG_4801.jpg";
+        document.getElementById("first-img").src = "images/Photo/Vertical/DSC_0261.jpg";
+        document.getElementById("second-img").src = "images/Main-slide/Mobile/Botanicki%201.jpg";
+        document.getElementById("third-img").src = "images/Main-slide/Mobile/IMG_0228%20LR%20PS.jpg";
+        document.getElementById("fourth-img").src = "images/Main-slide/Mobile/IMG_1547.jpg";
+        document.getElementById("fifth-img").src = "images/Main-slide/Mobile/IMG_4801.jpg";
     }
 }
 
 function changeCollapseColor() {
-    var canSee = $(".collapse").is(":visible");
-    if(canSee) {
+    var collapseVisible = $(".collapse").is(":visible");
+    if(collapseVisible) {
         document.getElementById("navbar").style.backgroundColor = "transparent";
     } else {
         document.getElementById("navbar").style.backgroundColor = "black";
