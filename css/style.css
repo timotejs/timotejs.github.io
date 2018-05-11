@@ -41,14 +41,14 @@ body {
 }
 #main-title h1 {
     font-family: sans-serif;
-    font-size: 80px;
+    font-size: 100px;
     color: white;
     font-weight: bold; 
     text-shadow:1px 1px 10px #000, 1px 1px 20px #000;
 }
 #main-title h3 {
     font-family: inherit;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     font-weight: bold;
     text-shadow:1px 1px 10px #000, 1px 1px 20px #000;
@@ -256,14 +256,14 @@ body {
     }
     #main-title h1 {
         font-family: sans-serif;
-        font-size: 60px;
+        font-size: 80px;
         color: white;
         font-weight: bold; 
         text-shadow:1px 1px 10px #000, 1px 1px 20px #000;
     }
     #main-title h3 {
         font-family: inherit;
-        font-size: 30px;
+        font-size: 40px;
         color: white;
         font-weight: bold;
         text-shadow:1px 1px 10px #000, 1px 1px 20px #000;
