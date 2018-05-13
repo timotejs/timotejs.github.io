@@ -5,9 +5,9 @@ if (matchMedia) {
 }
 function ImageChange(mq) {
     if (mq.matches) {
-        document.getElementById("first-img").src = "images/Main-slide/PC/DSC_0300-2.jpg";
-        document.getElementById("second-img").src = "images/Main-slide/PC/IMG_1937.jpg";
-        document.getElementById("third-img").src = "images/Main-slide/PC/IMG_4518.jpg";
+        document.getElementById("first-img").src = "images/Main-slide/PC/DSC_1423.jpg";
+        document.getElementById("second-img").src = "images/Main-slide/PC/DSC_0300-2.jpg";
+        document.getElementById("third-img").src = "images/Main-slide/PC/IMG_1937.jpg";
         document.getElementById("fourth-img").src = "images/Main-slide/PC/IMG_5130-4.jpg";
         document.getElementById("fifth-img").src = "images/Main-slide/PC/IMG_2035.jpg";
     } else {
