@@ -8,14 +8,14 @@ function ImageChange(mq) {
         document.getElementById("first-img").src = "images/Main-slide/PC/DSC_1423.jpg";
         document.getElementById("second-img").src = "images/Main-slide/PC/DSC_0300-2.jpg";
         document.getElementById("third-img").src = "images/Main-slide/PC/IMG_1937.jpg";
-        document.getElementById("fourth-img").src = "images/Main-slide/PC/IMG_5130-4.jpg";
+        document.getElementById("fourth-img").src = "images/Main-slide/PC/IMG_1910-2.jpg";
         document.getElementById("fifth-img").src = "images/Main-slide/PC/IMG_2035.jpg";
     } else {
         document.getElementById("first-img").src = "images/Photoshoots/Vertical/DSC_0261.jpg";
-        document.getElementById("second-img").src = "images/Main-slide/Mobile/Botanicki%201.jpg";
-        document.getElementById("third-img").src = "images/Main-slide/Mobile/IMG_0228%20LR%20PS.jpg";
-        document.getElementById("fourth-img").src = "images/Main-slide/Mobile/IMG_1547.jpg";
-        document.getElementById("fifth-img").src = "images/Main-slide/Mobile/IMG_4801.jpg";
+        document.getElementById("second-img").src = "images/Main-slide/Mobile/IMG_1116.jpg";
+        document.getElementById("third-img").src = "images/Main-slide/Mobile/IMG_1327.jpg";
+        document.getElementById("fourth-img").src = "images/Main-slide/Mobile/IMG_2147.jpg";
+        document.getElementById("fifth-img").src = "images/Main-slide/Mobile/IMG_2799.jpg";
     }
 }
 
