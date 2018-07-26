@@ -22,8 +22,11 @@ body {
     text-align: center;
 }
 #main-carousel .carousel-item img {
-    max-width: auto; 
-    height: 100vh; 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .noselect {
     -webkit-touch-callout: none;
@@ -283,8 +286,11 @@ body {
         opacity: 0.7 !important;
     }
     #main-carousel .carousel-item img {
-        width: 100vw; 
-        height: auto; 
+        width: 100%; 
+        height: 100vh; 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
     #photo-carousel .carousel-item img {
         max-width: 100%;
